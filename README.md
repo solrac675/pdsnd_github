@@ -3,10 +3,11 @@ Include the date you created this project and README file.
 April 30, 2020
 
 ### Project Title
-Replace the Project Title
+Post work on GITHUB
 
 ### Description
-Describe what your project is about and what it does
+This project is about creating a repository in GITHUB and using GIT commands
+to work on a local system and pushing the work to the GITHUB repository.
 
 ### Files used
 Include the files used

@@ -3,7 +3,7 @@
 """
 Created on Wed Apr  8 11:15:24 2020
 
-@author: carlos
+@author: carlos Rodriguez
 """
 
 
@@ -32,20 +32,20 @@ def get_filters():
         city = input(
         "City is name is invalid! Please input another name: ").lower()
     print('your choice was: ', city)
-    
+
     # get user input for month (all, january, february, ... , june)
     month = input("Please input month name - january, february, ... , june OR all: ").lower()
     while month not in ['january', 'february', 'march','april', 'may','june','all' ]:
         month = input(
         "Month is invalid! Please input another name: ").lower()
-    print('your choice was: ', month)   
-        
+    print('your choice was: ', month)
+
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("Please input day of week - monday, tuesday, ... sunday OR all: ").lower()
     while day not in ['monday', 'tuesday', 'wednesday','thursday', 'friday','saturday','sunday','all' ]:
         day = input(
         "Day is invalid! Please input another name: ").lower()
-    print('your choice was: ', day)  
+    print('your choice was: ', day)
     print('-'*40)
     return city, month, day
 
